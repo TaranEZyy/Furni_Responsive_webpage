@@ -9,6 +9,14 @@
 
 
 
+
+@media (max-width: 768px) {
+  .hero_1::before {
+    background-attachment: scroll; /* Fix for mobile devices */
+  }
+}
+
+
 .hero_1 {
   position: relative;
   height: 120vh;

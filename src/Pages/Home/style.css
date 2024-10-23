@@ -9,14 +9,6 @@
 
 
 
-
-@media (max-width: 768px) {
-  .hero_1::before {
-    background-attachment: scroll; /* Fix for mobile devices */
-  }
-}
-
-
 .hero_1 {
   position: relative;
   height: 120vh;
@@ -31,12 +23,19 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("../../assets/images/hero_1.jpg");
+  background-image: url("../../assets/images/hero_2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Parallax effect */
   filter: brightness(0.75); 
   z-index: 0; /* Pseudo-element behind the content */
+}
+
+
+@media (max-width: 768px) {
+  .hero_1::before {
+    background-attachment: scroll; /* Fix for mobile devices */
+  }
 }
 
 .hero_1 > * {
@@ -343,7 +342,7 @@
   }
 
   p {
-    font-size: 14px;
+    font-size: 20.3px;
   }
 
   .BtnContact {
